@@ -47,15 +47,15 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>HARVEY TYLER</motion.h2>
+          <motion.h2 variants={textVariants}>Купчино</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web developer and UI designer
+            Кошачий отель
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
-              See the Latest Works
+              Посмотреть тарифы
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}>Оставить заявку</motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -74,7 +74,7 @@ const Hero = () => {
         Writer Content Creator Influencer
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="public/cat1.png" alt="" />
       </div>
     </div>
   );

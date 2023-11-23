@@ -3,7 +3,7 @@
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
-  background: linear-gradient(180deg, #0c0c1d, #111132);
+  background: linear-gradient(180deg, #ffa600, #ff0000);
   position: relative;
 
   .wrapper {
@@ -61,10 +61,10 @@
   }
 
   .imageContainer {
-    height: 100%;
+    height: 70%;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 100px;
+    right: 100px;
 
     @include mobile {
       height: 50%;
